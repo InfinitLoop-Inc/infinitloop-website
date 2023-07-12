@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        caprasimo: ['Caprasimo', 'cursive'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        spacemono: ['Space Mono', 'monospace'],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
